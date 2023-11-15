@@ -1,4 +1,4 @@
 import cProfile
-import palindromes
+from palindromes import palindrome
 
-cProfile.run()
+cProfile.run("palindrome()")
